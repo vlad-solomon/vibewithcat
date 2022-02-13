@@ -1,0 +1,17 @@
+{
+	"name": "vibe",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.html",
+	"window": {
+		"icon": "img/icon.png",
+		"title": "Vibe with cat",
+		"frame": true,
+		"resizable": true,
+		"fullscreen": false,
+		"min_width": 1280,
+		"min_height": 720
+	},
+	"author": "Vlad Solomon",
+	"license": "ISC"
+}

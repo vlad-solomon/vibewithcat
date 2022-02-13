@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vibe with cat</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="not-connected">
+			<h1>No Internet connection detected!</h1>
+			<span>Make sure you're connected to a network with Internet connectivity, and try again.</span>
+		</div>
+		<div class="page-content">
+			<div class="cta-playlist">
+				<span>We’re pretty sure you dont really like to vibe alone to all your favourite songs, so here’s a helping hand - the most famous vibing cat on the planet. Meow <3</span>
+				<div class="cta-container">
+					<img src="img/yt-logo.svg" alt="yt-logo" id="yt-logo" />
+					<h1>How about you get the cat a Youtube song link, huh?</h1>
+					<span>It’s not like you have to, but you’re here though</span>
+					<div class="button" id="link-cta">Sure, cat!</div>
+					<div class="controls">
+						<div class="button circle primary" id="video-state">
+							<img src="img/pause.svg" alt="play/pause" />
+						</div>
+						<div class="button circle" id="relink">
+							<img src="img/relink.svg" alt="relink" />
+						</div>
+					</div>
+					<span>Powered by Youtube</span>
+				</div>
+				<span>Created by <a href="https://github.com/vlad-solomon" target="_blank">Vlad Solomon</a><br />Vibe with cat 2022</span>
+			</div>
+			<div class="cat">
+				<video src="img/cat-transparent.webm" class="background-active" loop muted></video>
+				<iframe frameborder="0" allow="autoplay" id="iframe" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<span id="cat-waiting">The cat is waiting for you to copy a Youtube song link</span>
+				<img src="img/dark-gradient.png" alt="dark gradient" />
+			</div>
+		</div>
+		<div class="link-modal">
+			<span id="close-modal">🗙</span>
+			<h1>Copy the link from your favourite Youtube song and the cat will tell you if it’s ok</h1>
+			<div class="input-wrapper">
+				<input type="text" placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="link" />
+				<span>Should look like <em>https://www.youtube.com/watch?v=L_jWHffIx5E</em> or <em>https://youtu.be/y6120QOlsfU</em>. Playlists also work.</span>
+			</div>
+			<div class="button" id="vibe">Vibe with cat</div>
+		</div>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+			integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+			crossorigin="anonymous"
+		></script>
+		<script src="app.js"></script>
+	</body>
+</html>

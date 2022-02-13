@@ -1,0 +1,16 @@
+{
+	"name": "vibe-with-cat-2.0",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"dev": "nw src/"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nw": "^0.61.0",
+		"nw-builder": "^3.5.7"
+	}
+}
