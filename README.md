@@ -6,7 +6,7 @@ We’re pretty sure you don't really like to vibe alone to all your favourite so
 
 ### How to?
 
-1. Get the latest release of the app
+1. Get the latest [release](https://github.com/vlad-solomon/vibewithcat/releases) of the app
 2. Open the app
 3. Get the link from Youtube
 4. ???
